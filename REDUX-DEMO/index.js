@@ -14,6 +14,12 @@ function buyCake() {
     info: "First redux action"
   };
 }
+function buyCake1() {
+  return {
+    type: BUY_CAKE,
+    info: "First redux action"
+  };
+}
 
 function buyIceCream() {
   return {
